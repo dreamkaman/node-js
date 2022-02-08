@@ -21,7 +21,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       console.log(deletedContact);
       break;
     default:
-      console.log('Unknown action');
+      console.warn('\x1B[31m Unknown action type!');
   }
 };
 
@@ -63,7 +63,7 @@ invokeAction(opts);
 //       console.log(deletedContact);
 //       break;
 //     default:
-//       console.log('Unknown action');
+//       console.warn('\x1B[31m Unknown action type!');
 //   }
 // };
 
