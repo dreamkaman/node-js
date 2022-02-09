@@ -1,0 +1,29 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "My NodeJS homeworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamkaman/node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamkaman/node-js/issues"
+  },
+  "homepage": "https://github.com/dreamkaman/node-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "yargs": "^17.3.1"
+  }
+}
